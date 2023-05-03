@@ -6,7 +6,7 @@ function Earn(props) {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            marginBottom:20
+            paddingTop:"100px"
         }} >
             <img src='https://media.tenor.com/ixRLM8lWPnIAAAAM/when-i-got-salary-during-lockdown-rich.gif' />
         </div>

@@ -174,7 +174,7 @@ function Trade(props) {
                                 fontSize='1.2em'
                                 children='₹'
                             />
-                            <Input placeholder='0.00' type='Number' onChange={(e) => EstimatePrice(e)} />
+                            <Input disabled={CurVal > 0 ? false : true} placeholder='0.00' type='Number' onChange={(e) => EstimatePrice(e)} />
                             <InputRightElement children={'INR'} />
                         </InputGroup>
                         <Text fontSize={16} ml={1} my={3} >Estimate Number of {CoinName} You will Get </Text>
