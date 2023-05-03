@@ -39,8 +39,10 @@
  6. The second input box is dynamically changing as soon as the user starts to enter data in the first input box.
  
  7. Both light mode and dark mode feature are available.
+  
+8. This site is fully responsive to small, medium, and for large Screens.
 
- 8. This Project is [Deployed](https://neofi-silk.vercel.app/trade) on Vercel and is live.
+9. This Project is [Deployed](https://neofi-silk.vercel.app/trade) on Vercel and is live.
 
  <hr/>
 
@@ -66,3 +68,5 @@
 
 
 5. It will take 4-5 seconds and the project will start on your default browser.
+
+
