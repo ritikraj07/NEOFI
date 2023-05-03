@@ -1,69 +1,64 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## [Deployed Link](https://neofi-silk.vercel.app/trade)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<hr/>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### What it is ?
+<br/>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Its an Crypto Calculator that Calculates how much Particular Crypto Units You Will Receive on the Money You want to Invest.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br/>
+<br/>
+ <hr/>
 
-### `npm run eject`
+ ## Features Present
+ <br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ 1. The current value of the selected crypto  is shown in the first page (on the top right side) is real-time.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ 2. Using coingecko Api to fetch the Real Time Data.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+ 3. When the dropdown list is clicked on to select the different Cryptos, the pop up is appearing. And the search bar in the pop up is functional.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+ 4. When the token is changed, the logo on the top circular notch of the card is also changing, along with the real-time price as well.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ 4. The second input box is disabled, and it shows the estimate amount of token the user will get once he enter the amount of INR he is going to invest.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+ 5. The second input box is dynamically changing as soon as the user starts to enter data in the first input box.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+ 6. This Project is [Deployed](https://neofi-silk.vercel.app/trade) on Vercel and is live.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+ <hr/>
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Steps To Clone it and Run In your Local Machine
 
-### Deployment
+1. Clone the repo by typing this  git clone https://github.com/ritikraj07/NEOFI.git in your terminal into an empty folder of yours in local system.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# NEOFI
+2. Go to the project folder using the below shortcut
+
+    ```javascript
+        cd NEOFI 
+    ```
+
+3. Install npm packages using  npm install command from your Terminal.
+
+
+4. Now to run the Project in your https://localhost:3000  type` npm run start`  in your terminal and press Enter
+
+
+5. It will take 4-5 seconds and the project will start on your default browser.
