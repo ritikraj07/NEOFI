@@ -4,10 +4,10 @@ import {HamburgerIcon } from '@chakra-ui/icons'
 import { Link, NavLink } from 'react-router-dom';
 import { useColorMode, useColorModeValue } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher.js';
-
+import { useNavigate } from "react-router-dom"
 function Navbar(props) {
     const mode = useColorModeValue('dark', 'light');
-
+    const navigate = useNavigate();
     return (
         <Flex mb={mode!='light'?'4':'0'} as={'nav'} boxShadow='md' bg={mode=='light'?'rgb(11, 8, 25)':'white'} justify={{sm:'space-around', base:'space-between'}}  align={'center'} height={'80px'} paddingX={5} >
             <Box style={{width:'10%'}}  display={{ base: 'none', sm: 'none', md: 'flex', lg: 'flex' }} alignItems={'center'} justifyContent={'center'} >
@@ -22,16 +22,16 @@ function Navbar(props) {
                         variant='outline'
                     />
                     <MenuList>
-                        <MenuItem>
+                        <MenuItem onClick={()=>navigate("/trade")} >
                             <NavLink to='/trade'> Trade </NavLink>
                         </MenuItem>
-                        <MenuItem>
+                        <MenuItem onClick={() => navigate("/earn")} >
                             <NavLink to='/earn'> Earn </NavLink>
                         </MenuItem>
-                        <MenuItem>
+                        <MenuItem onClick={() => navigate("/support")} >
                             <NavLink to='/support'> Support </NavLink>
                         </MenuItem>
-                        <MenuItem>
+                        <MenuItem onClick={() => navigate("/about")} >
                             <NavLink to='/about'> About </NavLink>
                         </MenuItem>
 
