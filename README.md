@@ -30,13 +30,14 @@
  4. When the token is changed, the logo on the top circular notch of the card is also changing, along with the real-time price as well.
 
 
- 4. The second input box is disabled, and it shows the estimate amount of token the user will get once he enter the amount of INR he is going to invest.
+ 5. The second input box is disabled, and it shows the estimate amount of token the user will get once he enter the amount of INR he is going to invest.
 
 
- 5. The second input box is dynamically changing as soon as the user starts to enter data in the first input box.
+ 6. The second input box is dynamically changing as soon as the user starts to enter data in the first input box.
+ 
+ 7. Both light mode and dark mode feature are available.
 
-
- 6. This Project is [Deployed](https://neofi-silk.vercel.app/trade) on Vercel and is live.
+ 8. This Project is [Deployed](https://neofi-silk.vercel.app/trade) on Vercel and is live.
 
  <hr/>
 
